@@ -34,7 +34,7 @@ and improved crop management.
 
 
 
-METHODOLOGY
+METHODS
 
 
 A. Model Training and Model Evaluation
@@ -43,7 +43,9 @@ testing set. Monitor the training and validation accuracy and
 loss. Evaluate the final model on the validation set and report
 key metrics such as accuracy, precision, recall, and confusion
 matrix.
-1https://www.kaggle.com/datasets/arjuntejaswi/plant-village
+
+
+https://www.kaggle.com/datasets/arjuntejaswi/plant-village
 
 
 B. Model Architecture
