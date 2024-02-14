@@ -35,6 +35,8 @@ and improved crop management.
 
 
 METHODOLOGY
+
+
 A. Model Training and Model Evaluation
 Train the model using the training set and validate it using the
 testing set. Monitor the training and validation accuracy and
@@ -42,6 +44,8 @@ loss. Evaluate the final model on the validation set and report
 key metrics such as accuracy, precision, recall, and confusion
 matrix.
 1https://www.kaggle.com/datasets/arjuntejaswi/plant-village
+
+
 B. Model Architecture
 Construct a CNN model using the Sequential API from
 Keras. The architecture includes convolutional layers, acti-
@@ -65,6 +69,8 @@ MaxPooling(X) = max
 i,j (X(i,j))
 Dropout
 Dropout(X, p) = keep prob × X
+
+
 C. Model Compilation
 Compile the Adam optimizer and sparse categorical crossen-
 tropy loss function for multiclass classification.
@@ -78,10 +84,14 @@ Adam Optimizer Update Rule
 √vt + ε
 Accuracy = Number of Correct Predictions
 Total Number of Predictions
+
+
 D. Explainability Analysis
 Use LIME (Local Interpretable Model-agnostic Explanations)
 to explain the model predictions for a sample image from the
 test set.
+
+
 E. Prediction of User-Provided Images
 Once the convolutional neural network (CNN) model is
 trained, it can be employed to predict plant diseases for user-
